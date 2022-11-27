@@ -57,7 +57,7 @@ body::-webkit-scrollbar {
   opacity: 0;
   transition: 0.4s;
   font-size: 1rem;
-  color: var(--sky)
+  color: var(--sky);
   font-weight: 500;
 }
 
@@ -84,7 +84,6 @@ a {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  padding: ;
 }
 
 #home .title {
@@ -137,7 +136,7 @@ h1 {
   gap: 64px;
   opacity: 1;
   transition: 0.4s;
-  z-index: ;
+  z-index: 0;
 }
 
 .logos {
@@ -178,7 +177,6 @@ h1 {
   background: var(--bgSemiLight);
   color: var(--sky);
   transition: 0.25s;
-
 }
 
 .thumb {
@@ -242,7 +240,7 @@ h1 {
   background: var(--sky);
 }
 
-.sourceCode{
+.sourceCode {
   background: var(--lime);
 }
 
